@@ -13,23 +13,89 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Ruben Lopez
+email: rubenlop88@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Software Engineer, Android and JEE developer.
+  “Fall in love with some activity, and do it! 
+  Nobody ever figures out what life is all about, 
+  and it doesn't matter.” ― Richard Feynman 
+logo: /assets/img/logo.png
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: https://rubenlop.net # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: rubenlop88
+github_username:  rubenlop88
+google_analytics: UA-124191575-1
+
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: '#558B2F'
+
+font:         "Open Sans, sans-serif"
+font_heading: "Noto Serif, serif"
+google_fonts: "Noto+Serif|Open+Sans"
+
+paginate:      5
+paginate_path: '/blog/page-:num/'
+
+author:
+  name:    Ruben Lopez
+  email:   rubenlop88@gmail.com
+  picture: https://s.gravatar.com/avatar/b73fa4e0d0716ac05efb111a331fb232?s=80
+  social:
+    twitter:       rubenlop88
+    github:        rubenlop88
+    stackoverflow: 1415153/rubenlop88
+    linkedin:      rubenlop88
+
+permalink:             pretty
+
+copyright:             © 2018. All rights reserved.
+
+disqus: ruben-lopez
+
+defaults:
+  - scope:
+      path: blog.md
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: projects.md
+    values:
+      menu: true
+      order: 2
+  - scope:
+      path: resume.md
+    values:
+      menu: true
+      order: 3
+
+collections:
+  featured_categories:
+    permalink:         /:name/
+    output:            true
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
+  projects:
+    permalink:         /projects/:path/
+    output:            true 
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hydejack-pro
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-avatar
 
+compress_html:
+  comments:  ["<!-- ", " -->"]
+  clippings: all
+  endings:   all
+
+sass:
+  style:     compressed
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

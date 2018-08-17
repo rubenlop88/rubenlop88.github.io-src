@@ -30,3 +30,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Hydejack 8 theme
 gem "jekyll-theme-hydejack-pro", git: 'git@hydejack:qwtel/hydejack-8-pro.git'
+
+gem "jekyll-paginate"
+
+gem "jekyll-avatar"

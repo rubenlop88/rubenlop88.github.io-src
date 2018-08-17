@@ -1,0 +1,166 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Rubén Darío López Rojas"
+  label: "Software Engineer"
+  picture: "https://s.gravatar.com/avatar/b73fa4e0d0716ac05efb111a331fb232?s=200"
+  email: "rubenlop88@gmail.com"
+  phone: "+595981372880"
+  website: "https://rubenlop.net"
+  location:
+    # address: "Misioneros Redentoristas 1613"
+    # postalCode: "1329"
+    city: "Asunción"
+    # countryCode: "PY"
+    region: "Paraguay"
+  profiles:
+    - network: "LinkedIn"
+      username: "Rubén López"
+      url: "https://www.linkedin.com/in/rubenlop88/"
+    - network: "StackOverflow"
+      username: "rubenlop88"
+      url: "https://stackoverflow.com/users/1415153/rubenlop88"
+    - network: "Github"
+      username: "rubenlop88"
+      url: "https://github.com/rubenlop88/"
+    - network: "Twitter"
+      username: "rubenlop88"
+      url: "https://twitter.com/rubenlop88"
+work:
+  - company: "Itaipu Binacional"
+    position: "Software Engineer"
+    website: "https://www.itaipu.gov.py"
+    startDate: "2017-01-01"
+    endDate: ""
+    summary: >
+      I work at the Maintenance Systematization Division, doing requirements engineering, data analysis and visualizations with Pentaho and Tableau.
+  - company: "rubenlop.net"
+    position: "Mobile Engineer"
+    website: "https://rubenlop.net"
+    startDate: "2011-02-01"
+    endDate: ""
+    summary: >
+      I specialize in mobile applications development for Android and iOS, using Java, Kotlin, Swift and Ionic.
+  - company: "Konecta S.A."
+    position: "Software Engineer"
+    website: "https://www.konecta.com.py"
+    startDate: "2012-02-01"
+    endDate: "2016-12-01"
+    summary: >
+      I worked as a software developer and project leader, building mobile applications for Android and iOS, RESTful web services and web apps in Java EE, Angular, Rails and Play Framework.
+  - company: "Centro Nacional de Computación"
+    position: "Software Developer"
+    website: "https://cnc.una.py"
+    startDate: "2010-04-01"
+    endDate: "2012-01-01"
+    summary: >
+      I worked as a software developer, mantaining apps written in Delphi, Java EE and Seam.
+  - company: "Sebaot Software"
+    position: "Software Developer"
+    website: "https://www.sebaot.com"
+    startDate: "2008-11-01"
+    endDate: "2009-03-01"
+    summary: >
+      I worked as a software developer, mantaining apps written in Delphi and Firebird.
+#volunteer:
+#  - organization: "CoderDojo"
+#    position: "Teacher"
+#    website: "https://coderdojo.com/"
+#    startDate: "2012-01-01"
+#    endDate: "2013-01-01"
+#    summary: "Global movement of free coding clubs for young people."
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
+education:
+  - institution: "National University of Asuncion"
+    area: "Software Engineering"
+    studyType: "Bachelor"
+    startDate: "2017-01-01"
+    endDate: "2011-01-01"
+    gpa: "4.19"
+#    courses:
+#      - "DB1101 - Basic SQL"
+#      - "CS2011 - Java Introduction"
+#awards:
+#  - title: "Digital Compression Pioneer Award"
+#    date: "2014-11-01"
+#    awarder: "Techcrunch"
+#    summary: "There is no spoon."
+publications:
+  - name: "Cooperative Estimation of Vehicular Traffic using Mobile Applications"
+    publisher: "XLI Latin American Computing Conference (CLEI)"
+    releaseDate: "2015-10-01"
+    website: "http://ieeexplore.ieee.org/document/7359461/"
+#    summary: "The increasing amount of vehicles in developing countries, where its cities do not have a well-planned road infrastructure nor installed technology to monitor traffic conditions, tends to make difficult the daily traffic and to reduce the quality of life. Because of this, collect and analyze traffic information in an inexpensive and easy manner becomes necessary. This paper presents the implementation details of a system called Autotracks, which collects information from vehicular traffic through mobile devices in order to approximate the traffic conditions in real time. A Floating Car Data approach is used in combination with activity recognition to monitor the location of users in moving vehicles. The real path of the vehicles is approximated by using a Map Matching process. Then, all the trajectories are aggregated in order to approximate the traffic condition in the last period of time and finally the traffic status information in real time is obtained."
+skills:
+  - name: "Mobile Development"
+    level: "Master"
+    keywords:
+      - "Android"
+      - "Play Services"
+      - "Firebase"
+      - "Ionic"
+  - name: "Backend Development"
+    level: "Master"
+    keywords:
+      - "JAX-RS"
+      - "JPA"
+      - "EJB"
+      - "CDI"
+      - "OAuth 2"
+      - "Wildfly"
+      - "Keycloak"
+      - "Rails"
+      - "Django"
+      - "Play!"
+  - name: "Frontend Development"
+    level: "Intermediate"
+    keywords:
+      - "JSF"
+      - "PrimeFaces"
+      - "Angular"
+languages:
+  - language: "Spanish"
+    fluency: "native-speaker"
+  - language: "Guarani"
+    fluency: "native-speaker"
+  - language: "English"
+    fluency: "full-professional-proficiency"
+  - language: "Portuguese"
+    fluency: "limited-working-proficiency"
+interests:
+  - name: "Cross-Platform Development"
+    keywords:
+      - "Flutter"
+      - "React Native"
+      - "NativeScript"
+      - "Xamarin"
+  - name: "Reactive Programming"
+    keywords:
+      - "RxJava"
+      - "Reactive Extensions"
+  - name: "Andorid Architecture"
+    keywords:
+      - "Clean Architecture"
+      - "MVP"
+      - "MVVM"
+      - "Architecture Components"
+      - "Kotlin"
+  - name: "Music"
+    keywords:
+      - "Lukas Graham"
+      - "Dua Lipa"
+  - name: "TV Shows & Movies"
+    keywords:
+      - "Arrow"
+      - "Flash"
+      - "Attack on Titan"
+      - "Rick and Morty"
+      - "Westworld"
+      - "HIMYM"
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
